@@ -1,0 +1,35 @@
+---
+title: Welcome to UNHub Docs
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: 默沙东诊疗手册大众版与专业版已上线!
+  image:
+    file: ../../assets/load-balancing.svg
+  actions:
+    - text: 立即查看
+      link: /reference/merck-manual/
+      icon: right-arrow
+
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+## 各个板块
+
+<CardGrid stagger>
+	<Card title="Update content" icon="pencil">
+		联合库UNHub全新文档网站
+	</Card>
+	<Card title="Add new content" icon="add-document">
+		收录最新知识
+	</Card>
+	<Card title="Configure your site" icon="setting">
+		不至于互联网
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		来看看最新的 [默沙东诊疗手册大众版与专业版]
+	</Card>
+</CardGrid>
+
